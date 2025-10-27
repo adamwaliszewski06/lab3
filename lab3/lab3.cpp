@@ -21,6 +21,26 @@ int main()
 		cout << "The first number is greater than the second." << endl;
 	} */
 
+/* zad 2 
+	int a, b;
+	cout << "Enter two integers: ";
+	cin >> a;
+	cin >> b;
+	if (a != b) {
+		cout << "The numbers are not equal." << endl;
+		if (a < b) {
+			cout << "The first number is less than the second." << endl;
+		}
+		else {
+			cout << "The first number is greater than the second." << endl;
+		}
+	} 
+	else {
+		cout << "The numbers are equal";
+	} */
+
+/* zad 3 */
+
 
 }
 
