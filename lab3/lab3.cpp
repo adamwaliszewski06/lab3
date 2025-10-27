@@ -51,7 +51,7 @@ int main()
 			
 			*/
 
-	/* zad 4 */
+	/* zad 4 
 	float a, b;
 	char operation;
 
@@ -80,9 +80,60 @@ int main()
 		break;
 	default:
 		cout << "Invalid operation" << endl;
+	} */
+	
+	/* zad 5 
+	while (1) {
+		cout << 1;
 	}
-	
-	
+	return 0;
+	*/
+
+	/* zad 6 
+
+	float a, b;
+	char operation;
+	bool fini; //finish? T=yes, F=no
+
+	while (1) {
+		cout << "Enter two numbers: ";
+		cin >> a;
+		cin >> b;
+		cout << "Enter the operation (+, -, *, /): ";
+		cin >> operation;
+		switch (operation) {
+		case '+':
+			cout << "Result: " << a + b << endl;
+			break;
+		case '-':
+			cout << "Result: " << a - b << endl;
+			break;
+		case '*':
+			cout << "Result: " << a * b << endl;
+			break;
+		case '/':
+			if (b != 0) {
+				cout << "Result: " << a / b << endl;
+			}
+			else {
+				cout << "Error: division by zero." << endl;
+			}
+			break;
+		default:
+			cout << "Invalid operation" << endl;
+		}
+		cout << "Finish? (Enter 1 to finish or 0 to continue) ";
+		cin >> fini;
+		if (fini == true)
+			return 0;
+		else if (fini == false)
+			continue;
+
+	} */
+
+
+
+
 
 
 }
