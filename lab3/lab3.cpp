@@ -19,7 +19,7 @@ int main()
 	}
 	else {
 		cout << "The first number is greater than the second." << endl;
-	}*/
+	} */
 
 
 }
