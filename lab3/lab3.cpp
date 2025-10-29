@@ -38,8 +38,30 @@ int main()
 			else {
 				cout << "The numbers are equal";
 			} */
+			
+/* zad 3 - korelacje */
+	double r;
+	cout << "Enter r: ";
+	cin >> r;
 
-			/* zad 3 
+	if r
+
+	if (r > 0.7 && r <= 1) {
+		cout << "Very strong positive correlation" << endl;
+	}
+	else if (r >= 0.5) {
+		cout << "Strong positive correlation";
+	}
+	else if (r>=0.3) {
+		cout << "Moderate positive correlation";
+	}
+	else if (r >= 0.1) {
+		cout << "Weak positive correlation";
+	}
+	else if (r == 0) {
+		cout << "No correlation";
+	}
+
 			
 			
 			
@@ -49,7 +71,7 @@ int main()
 			
 			
 			
-			*/
+			
 
 	/* zad 4 
 	float a, b;
